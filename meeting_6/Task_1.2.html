@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting 6. Task 1.2</title>
+  </head>
+  <body></body>
+  <script>
+    const filterArray = (arr) => {
+      const onlyNumbers = [];
+      for (let i = 0; i < arr.length; i++) {
+        if (typeof arr[i] === "number") {
+          onlyNumbers.push(arr[i]);
+        }
+      }
+      return onlyNumbers;
+    };
+
+    const filterNumber = (arr) => arr.filter((e) => typeof e === "number");
+    filterArray(["a", "b", 1, 2, true, [1, 2, 3], {}, null, undefined]);
+    filterNumber(["a", "b", 1, 2, true, [1, 2, 3], {}, null, undefined]);
+  </script>
+</html>

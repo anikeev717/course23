@@ -1,0 +1,51 @@
+.glodal-header {
+  padding-top: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.global-header__content {
+  width: 100%;
+  max-width: 960px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 44px;
+}
+.logo {
+  display: block;
+  /* border: 1px solid green; */
+  color: var(--font-color-default);
+}
+.logo__title {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 59px;
+  padding-bottom: 12px;
+}
+.logo__sub-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.globar-header__navbar {
+  margin-left: 10px;
+}
+.navbar {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.navbar__link {
+  padding: 0 15px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  color: #8b8b8b;
+}
+.navbar__link:hover {
+  color: var(--active-color);
+}
+.navbar__link_active {
+  color: var(--active-color);
+}

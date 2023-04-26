@@ -1,0 +1,52 @@
+.post {
+  position: relative;
+  width: 100%;
+  background-color: gainsboro;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.post::before {
+  content: "";
+  position: absolute;
+  right: 17px;
+  top: 6px;
+  width: 2px;
+  height: 24px;
+  background-color: gray;
+  border-radius: 1px;
+}
+.post::after {
+  content: "";
+  position: absolute;
+  right: 6px;
+  top: 17px;
+  width: 24px;
+  height: 2px;
+  background-color: gray;
+  border-radius: 1px;
+}
+.post__title {
+  line-height: 36px;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+.post__content {
+  background-color: rgb(245, 245, 245);
+  opacity: 0;
+  visibility: hidden;
+  line-height: 24px;
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 30px;
+  height: 0;
+  text-align: left;
+}
+.active {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+}

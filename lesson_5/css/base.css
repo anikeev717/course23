@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: var(--primary-font);
+  font-style: normal;
+}
+body,
+p,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+input,
+button {
+  border: none;
+}
+body {
+  background: var(--background-color);
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 137px;
+}
+
+:root {
+  --background-color: #eae5e5;
+  --base-color-primary: #ffffff;
+  --active-color: #61d0d4;
+  --addition-color-primary: #e83556;
+  --font-color-default: #4d4d4d;
+  --primary-font: "Noticia Text";
+  --secondary-font: "Open Sans";
+}

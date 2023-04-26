@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+}
+body,
+p,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input,
+button {
+  border: none;
+}

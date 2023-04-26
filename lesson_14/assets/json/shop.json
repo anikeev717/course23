@@ -1,0 +1,190 @@
+{
+        "products": [
+            {
+                "id": 1,
+                "title": "I'm product ",
+                "price": "150",
+                "currency": "USD",
+                "discount": "15",
+                "additionalInfo": {
+                    "inStock": 20,
+                    "sale": true,
+                    "colors": [
+                        {
+                            "descrition": "Orange",
+                            "value": "#25503c"
+                        },
+                        {
+                            "descrition": "Pink",
+                            "value": "rgb(255, 192, 203)"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "I'm product ",
+                "price": "120",
+                "currency": "USD",
+                "discount": "20",
+                "additionalInfo": {
+                    "inStock": 5,
+                    "sale": false,
+                    "colors": [
+                        {
+                            "descrition": "Light Purple",
+                            "value": "#e9cbf6"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "I'm product 2",
+                "price": "110",
+                "currency": "USD",
+                "discount": "0",
+                "additionalInfo": {
+                    "inStock": 1,
+                    "sale": false,
+                    "colors": [
+                        {
+                            "descrition": "Light Purple",
+                            "value": "#e9cbf6"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "I'm product 1",
+                "price": "250",
+                "currency": "USD",
+                "discount": "50",
+                "additionalInfo": {
+                    "inStock": 10,
+                    "sale": true,
+                    "colors": [
+                        {
+                            "descrition": "Light Purple",
+                            "value": "#e9cbf6"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "I'm product 2",
+                "price": "50",
+                "currency": "USD",
+                "discount": "12",
+                "additionalInfo": {
+                    "inStock": 16,
+                    "sale": true,
+                    "colors": [
+                        {
+                            "descrition": "Light Purple",
+                            "value": "#e9cbf6"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "I'm product 2",
+                "price": "150",
+                "currency": "USD",
+                "discount": "0",
+                "additionalInfo": {
+                    "inStock": 26,
+                    "sale": true,
+                    "colors": [
+                        {
+                            "descrition": "Light Purple",
+                            "value": "#e9cbf6"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "I'm product 2",
+                "price": "157",
+                "currency": "USD",
+                "discount": "20",
+                "additionalInfo": {
+                    "inStock": 26,
+                    "sale": true,
+                    "colors": [
+                        {
+                            "descrition": "Light Purple",
+                            "value": "#e9cbf6"
+                        }
+                    ]
+                },
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium fuga tenetur nesciunt dolorem, tempora minus aut libero inventore quia illum aspernatur quod possimus, facere sunt sed sit eos sapiente excepturi.",
+                "media": [
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    },
+                    {
+                        "fullUrl": "./assets/image/product-card/pic.jpg"
+                    }
+                ]
+            }
+        ]
+}

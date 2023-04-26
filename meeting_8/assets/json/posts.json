@@ -1,0 +1,57 @@
+[
+    {
+        "title": "End of Life for Azure Notebooks",
+        "content":"Windows Phone had its annoyances, but I wish they'd held onto it - particularly now with more and more M365 subscription-based ecosystem push. A highly securable device with solid versions of Office, Teams, Outlook, Authenticator and other MS-owned products could actually be viable, and if they keep on with the ARM-based Surface Pro X family then ARM-based processors in phones wouldn't be a big stretch.",
+        "avatarUrl": "https://images.unsplash.com/photo-1681407979620-193f8181f5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "author": "fencepost",
+        "id": 1
+    },
+    {
+        "title": "Usergems (YC S14) in hiring engineers",
+        "content":"Ironically, Windows Phones clients never fully supported Microsoft's enterprise line -- specifically, the 'Outlook' app did not support shared calendards or even multiple calendars associated with one account. Digging into the application revealed that it re-used an open-source syncing library instead of being a Microsoft-built implementation! Exchange support was the bulk of the appeal for the platform for me, and lack thereof is the reason I moved on to Android, where I had real support for a more full-featured toolset.",
+        "avatarUrl":"https://plus.unsplash.com/premium_photo-1677533644867-760339260284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "author":"stonogo",
+        "id": 2
+    },
+    {
+        "title": "Other comment",
+        "content":"How were you able to dig into the appliaction? Is it possible to get Windows phone excecutables and decompile them using ilspy etc.?",
+        "avatarUrl":"https://image.freepik.com/free-vectopr/merry-christmas-happy-new-year-promotion-poster_139523-494.jpg",
+        "author":"atesti",
+        "id": 3
+    },
+    {
+        "title": "Other comment 2",
+        "content":"Ironically, Windows Phones clients never fully supported Microsoft's enterprise line -- specifically, the 'Outlook' app did not support shared calendards or even multiple calendars associated with one account. Digging into the application revealed that it re-used an open-source syncing library instead of being a Microsoft-built implementation! Exchange support was the bulk of the appeal for the platform for me, and lack thereof is the reason I moved on to Android, where I had real support for a more full-featured toolset.",
+        "avatarUrl": "https://images.unsplash.com/photo-1681407979620-193f8181f5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "author":"fencepost",
+        "id": 4
+    },
+    {
+        "title": "Other comment 3",
+        "content":"I've used multiple calenders per account without issue on my Windows phones.",
+        "avatarUrl":"https://plus.unsplash.com/premium_photo-1677533644867-760339260284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "author":"stonogo",
+        "id": 5
+    },
+    {
+        "title": "Other comment 4",
+        "content":"I've been using this feature since I started using Winphones back in 2015.",
+        "avatarUrl": "./assets/img/img.png",
+        "author":"brnt",
+        "id": 6
+    },
+    {
+        "title": "Other comment 5",
+        "content":"Which was right around the beginning of the end: https://www.statista.com/statistics/236034/global-smartphone... By 2015, we're talking about Windows Phone 10. After 7, 8, and 8.1, the world was pretty much done with Windows Phone. Microsoft pulled the plug less than two years later.",
+        "avatarUrl": "https://plus.unsplash.com/premium_photo-1677533644867-760339260284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "author":"stonogo",
+        "id": 7
+    },
+    {
+        "title": "empty",
+        "content":"empty",
+        "author":"noname",
+        "id": 8
+    }
+]

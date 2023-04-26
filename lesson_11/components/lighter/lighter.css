@@ -1,0 +1,36 @@
+.light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: gray;
+  margin: 25px auto 0;
+}
+.light__item {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+.light__item-red {
+  background-color: red;
+  filter: brightness(10%);
+}
+.light__item-yellow {
+  background-color: yellow;
+  filter: brightness(10%);
+}
+.light__item-green {
+  background-color: green;
+  filter: brightness(10%);
+}
+.light__item-active {
+  filter: brightness(100%) blur(3px);
+  border: 2px solid transparent;
+}
+
+/*# sourceMappingURL=lighter.css.map */

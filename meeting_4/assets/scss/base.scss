@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--primary-font);
+  font-size: var(--font-size-l);
+}
+body,
+p,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input,
+button {
+  border: none;
+}

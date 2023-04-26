@@ -1,0 +1,18 @@
+body {
+  background: var(--background-color);
+}
+
+:root {
+  --background-color: #253e52;
+  --base-color-primary: #ffffff;
+  --addition-color-primary: #25a0d4;
+  --font-color-default: #325e82;
+  --font-color-additional-primary: #555555;
+  --primary-font: "AvenirNext";
+  --secondary-font: "Lato";
+  --additional-font-primary: ".HelveticaNeueDeskInterface";
+  --font-size-s: 10px;
+  --font-size-m: 12px;
+  --font-size-l: 14px;
+  --font-size-xl: 16px;
+}

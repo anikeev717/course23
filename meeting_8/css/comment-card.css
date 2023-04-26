@@ -1,0 +1,48 @@
+.comment-card {
+  width: 100%;
+  max-width: 667px;
+  min-height: 276px;
+  background: #ffffff;
+  border: 2px solid #8995ff;
+  border-radius: 10px;
+  margin: 24px auto;
+  display: flex;
+  position: relative;
+}
+.comment-card__autor {
+  margin: 40px 15px 49px 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.comment-card__img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  width: 144px;
+  height: 144px;
+}
+.comment-card__name {
+  text-align: center;
+  margin-top: 10px;
+}
+.comment-card__description {
+  margin: 24px 22px 49px 0;
+}
+.comment-card__title {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+}
+.comment-card__date {
+  text-align: right;
+  color: #767676;
+  position: absolute;
+  bottom: 20px;
+  right: 29px;
+}
+.comment-card__post {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=comment-card.css.map */

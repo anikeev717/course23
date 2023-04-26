@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body,
+p,
+span,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-family: Muli;
+  font-size: 16px;
+  color: #000000;
+}
+body {
+  background-color: #f2f2f2;
+}
+.card {
+  width: 410px;
+  height: 550px;
+  background: #ffffff;
+  box-shadow: 0px 32px 20px rgba(4, 22, 87, 0.0873306);
+  border-radius: 20px;
+  margin: 325px auto;
+}
+.card_title {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 43px;
+  margin: 45px 102px 45px 50px;
+}
+
+.big {
+  margin: 0 0 45px 57px;
+
+  display: block;
+}
+.big .stats_name {
+  margin-top: 10px;
+}
+
+.card_line {
+  border: none;
+  background-color: #cbd0e1;
+  margin-left: 50px;
+  width: 320px;
+  height: 1px;
+}
+.small {
+  margin: 36px 28px 71px 50px;
+
+  display: inline-block;
+}
+.small .stats_name {
+  margin-top: 12px;
+}
+.likes::before {
+  content: url(./assets/icon/Shape.svg);
+  margin-right: 10px;
+}
+.comments::before {
+  content: url(./assets/icon/Comments.svg);
+  margin-right: 10px;
+}
+.stats_value {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: bold;
+}
+.big .stats_value {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.stats_name {
+  line-height: 19px;
+}
+
+.card_link {
+  display: block;
+  text-align: center;
+  padding-top: 19px;
+  width: 242px;
+  height: 58px;
+  border-radius: 29px;
+  background: #ffcf54;
+  color: #000000;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0 84px 64px;
+}
+.card_link::after {
+  content: url(./assets/icon/arrow-right.svg);
+  margin-left: 11px;
+}

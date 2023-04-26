@@ -1,0 +1,82 @@
+.global-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.global-content__profile {
+  margin-top: 118px;
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  width: 100%;
+}
+.profile__picture {
+  width: 50%;
+}
+.profile__image {
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.profile__description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.profile__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 109px;
+  color: var(--font-color-default);
+}
+.profile__subtitle {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+  color: var(--font-color-default);
+}
+.profile__links {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 0 42px;
+}
+.profile__link {
+  --size: 130px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 82px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18 px;
+  color: var(--base-color-primary);
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.profile__link_resume {
+  background-color: #e83556;
+}
+.profile__link_work {
+  background-color: #61d0d4;
+}
+.profile__link_skills {
+  background-color: #d1c926;
+}
+.profile__link:hover {
+  filter: brightness(50%);
+}
+.profile__bio {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--font-color-default);
+  margin-bottom: 57px;
+}
